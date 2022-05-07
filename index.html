@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav id="navbar">
+      <ul class="nav">
+        <li class="logo">
+          <a href="#logo">ScuttleCrab</a>
+        </li>
+        <li class="item">
+          <a href="#welcome-section">About</a>
+        </li>
+        <li class="item">
+          <a href="#information">Information</a>
+        </li>
+        <li class="item">
+          <a href="#contact">Contact</a>
+        </li>
+        <li class="item button"><a href="#">Log In</a></li>
+        <li class="item button secondary"><a href="#">Sign Up</a></li>
+      </ul>
+    </nav>
+    <div id="welcom-section" class="welcome-section">
+        <div class="welcome_content">
+            <h1>Hello there, Scuttle Crab here</h1>
+            <p>Do I know u?</p>
+        </div>
+    </div>
+    <div id="information" class="in4">
+        <div class="in4_content">
+            <h2 class="in4_header">Some of my information</h2>
+            <div class="in4_details">
+                <a href="#welcome-section">
+                    <img src=".\img\fanMU.jpg" alt="" class="in4_img">
+                    <p>MU fan</p>
+                </a>
+                <a href="#welcome-section">
+                    <img src=".\img\wjbu.jpg" alt="" class="in4_img">
+                    <p>Real Wjbu</p>
+                </a>
+                <a href="#welcome-section">
+                    <img src=".\img\cheems.jpg" alt="" class="in4_img">
+                    <p>Sad Clown</p>
+                </a>
+                <a href="#welcome-section">
+                    <img src=".\img\gigachad.jpg" alt="" class="in4_img">
+                    <p>Not a nice guy</p>
+                </a>
+                <a href="#welcome-section" class="btn btn-show-all" target="_blank">
+                 See more
+                  <i class="fas fa-chevron-right"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="contact" id="contact">
+      <div class="contact-header">
+        <h1>Let's play</h1>
+        <p>How are u today?</p>
+      </div>
+      <div class="contact-links">
+        <a href="https://www.facebook.com/profile.php?id=100079437703701" target="_blank" class="btn contact-details"
+          ><i class="fab fa-facebook-square"></i> Facebook</a
+        >
+        <a
+          id="profile-link"
+          href="https://github.com/ScuttleCrabX"
+          target="_blank"
+          class="btn contact-details"
+          ><i class="fab fa-github"></i> GitHub</a
+        >
+        <a href="#welcome-section" class="btn contact-details" onclick="email()"
+          ><i class="fas fa-at"></i> Send a mail</a>
+          <script>
+            function email() {
+            alert("nguyenga25071997@gmail.com");
+          }
+          </script>
+        <a href="#welcome-section" class="btn contact-details" onclick="phone()"
+          ><i class="fas fa-mobile-alt"></i> Call me</a>
+          <script>function phone() {
+            alert("0975025JQK");
+          }</script>
+      </div>
+    </div>
+    <footer>
+      <p>
+        **This is just a fake portfolio. All the projects and contact details
+        given are not real.
+      </p>
+      <p>
+        &copy; Created for
+        <a href="#welcome-section" target="_blank" style="color: aliceblue;">mindX Technology School</a>
+      </p>
+    </footer>
+  </body>
+</html>
